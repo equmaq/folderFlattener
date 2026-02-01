@@ -1,0 +1,8 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\folderFlattener]
+@="Flatten Folder"
+"Icon"="C:\\Program Files\\folderFlattener\\flatten.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\folderFlattener\command]
+@="powershell.exe -NoExit -ExecutionPolicy Bypass -File \"C:\\Program Files\\folderFlattener\\main.ps1\" -WorkingDir \"%V\""
